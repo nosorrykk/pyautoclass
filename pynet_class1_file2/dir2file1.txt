@@ -1,0 +1,1 @@
+This is the first file in directory2, now just updated
