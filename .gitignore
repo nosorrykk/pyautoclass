@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+### SECURITY / SENSITIVE FILES (added manually)
+# Credential files (YAML, JSON, TXT, etc.)
+config/
+*.yaml
+*.yml
+*.json
+secrets/
+*.env
+
+# Prevent accidentally committing raw backups
+*.bak
+*.backup
+
+# Prevent committing local Netmiko/Ansible outputs
+output/
+logs/
+*.log
+*.txt
+
+# Prevent committing class exercises accidentally from home folder
+/home/nade/class*.py
+
